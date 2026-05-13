@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serviro Privacy Policy | Kebijakan Privasi</title>
+    <meta
+        name="description"
+        content="Bilingual privacy policy for the Serviro app in Bahasa Indonesia and English for Google Play Console."
+    />
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --surface: rgba(255, 252, 247, 0.94);
+            --surface-strong: #fffcf7;
+            --text: #10263f;
+            --muted: #687385;
+            --line: #d9e1ea;
+            --brand: #1d5d8f;
+            --brand-soft: #edf4fb;
+            --link: #1d5d8f;
+            --shadow: 0 24px 70px rgba(16, 38, 63, 0.10);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(245, 158, 61, 0.20), transparent 28%),
+                radial-gradient(circle at top right, rgba(42, 168, 137, 0.16), transparent 26%),
+                radial-gradient(circle at 50% 18%, rgba(29, 93, 143, 0.10), transparent 30%),
+                linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--link);
+        }
+
+        .shell {
+            width: min(920px, calc(100% - 32px));
+            margin: 48px auto;
+        }
+
+        .hero {
+            background:
+                radial-gradient(circle at top right, rgba(245, 158, 61, 0.34), transparent 28%),
+                radial-gradient(circle at bottom left, rgba(42, 168, 137, 0.22), transparent 24%),
+                linear-gradient(135deg, #10263f 0%, #1d5d8f 68%, #2aa889 100%);
+            color: #fff;
+            border-radius: 28px;
+            padding: 40px 32px;
+            box-shadow: var(--shadow);
+        }
+
+        .eyebrow {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.16);
+            font-size: 13px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            margin: 16px 0 10px;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 680px;
+            color: rgba(255, 255, 255, 0.90);
+        }
+
+        .content {
+            margin-top: 24px;
+            background: var(--surface);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            border-radius: 28px;
+            padding: 30px;
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(10px);
+        }
+
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .meta-chip {
+            padding: 10px 14px;
+            border-radius: 14px;
+            background: var(--brand-soft);
+            border: 1px solid #cfe0f1;
+            color: #1d5d8f;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .lang-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+            margin-top: 18px;
+        }
+
+        .section {
+            background: var(--surface-strong);
+            border: 1px solid var(--line);
+            border-radius: 22px;
+            padding: 24px;
+        }
+
+        .section + .section {
+            margin-top: 18px;
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            font-size: 1.3rem;
+            line-height: 1.3;
+        }
+
+        p {
+            margin: 0 0 14px;
+        }
+
+        p:last-child,
+        ul:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            margin: 0 0 14px;
+            padding-left: 22px;
+        }
+
+        li + li {
+            margin-top: 8px;
+        }
+
+        code {
+            padding: 2px 6px;
+            border-radius: 8px;
+            background: #eef3f8;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 0.95em;
+        }
+
+        .note {
+            margin-top: 20px;
+            padding: 18px 20px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, rgba(245, 158, 61, 0.10), rgba(42, 168, 137, 0.10));
+            border: 1px solid #d6e5dd;
+        }
+
+        .footer {
+            margin: 20px 0 8px;
+            text-align: center;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        @media (max-width: 640px) {
+            .shell {
+                width: min(100% - 20px, 920px);
+                margin: 18px auto 28px;
+            }
+
+            .hero,
+            .content {
+                border-radius: 22px;
+            }
+
+            .hero {
+                padding: 28px 22px;
+            }
+
+            .content {
+                padding: 18px;
+            }
+
+            .section {
+                padding: 18px;
+                border-radius: 18px;
+            }
+
+            .lang-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <span class="eyebrow">Serviro Privacy Policy</span>
+            <h1>Kebijakan Privasi / Privacy Policy</h1>
+            <p>
+                Halaman ini menyediakan versi Bahasa Indonesia dan English dari
+                kebijakan privasi aplikasi Serviro untuk pengguna dan kebutuhan
+                Google Play Console.
+            </p>
+        </section>
+
+        <section class="content">
+            <div class="meta">
+                <div class="meta-chip">Tanggal berlaku: 13 Mei 2026</div>
+                <div class="meta-chip">Effective date: May 13, 2026</div>
+                <div class="meta-chip">Developer: Young Bro Dev</div>
+            </div>
+
+            <div class="lang-grid">
+                <div>
+                    <section class="section">
+                        <h2>Bahasa Indonesia</h2>
+                        <p>
+                            Serviro ("kami", "aplikasi ini") menghargai privasi pengguna.
+                            Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan,
+                            menggunakan, menyimpan, dan melindungi informasi saat Anda
+                            menggunakan aplikasi Serviro.
+                        </p>
+                        <p>
+                            Dengan menggunakan Serviro, Anda menyetujui praktik yang
+                            dijelaskan dalam Kebijakan Privasi ini.
+                        </p>
+                    </section>
+
+                    <section class="section">
+                        <h2>1. Informasi yang Kami Kumpulkan</h2>
+                        <p>Serviro dapat mengumpulkan atau memproses informasi berikut:</p>
+                        <ul>
+                            <li>Data yang Anda masukkan ke dalam aplikasi, seperti data kendaraan, servis, pengingat, catatan, atau informasi lain yang Anda simpan.</li>
+                            <li>Foto atau gambar yang Anda ambil menggunakan kamera atau pilih dari galeri perangkat untuk kebutuhan fitur aplikasi.</li>
+                            <li>Data teknis terbatas yang diperlukan agar aplikasi berjalan dengan baik, termasuk konfigurasi aplikasi dan informasi dasar perangkat yang dapat diproses oleh layanan pihak ketiga yang kami gunakan.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>2. Izin yang Digunakan Aplikasi</h2>
+                        <p>Serviro dapat meminta izin berikut:</p>
+                        <ul>
+                            <li><code>android.permission.CAMERA</code><br />Digunakan untuk mengambil foto langsung dari kamera perangkat.</li>
+                            <li><code>android.permission.POST_NOTIFICATIONS</code><br />Digunakan untuk mengirim pengingat, notifikasi servis, notifikasi dokumen, atau pembaruan umum aplikasi.</li>
+                            <li><code>android.permission.INTERNET</code><br />Digunakan agar aplikasi dapat memuat layanan pihak ketiga, termasuk konfigurasi jarak jauh dan layanan iklan.</li>
+                        </ul>
+                        <p>Anda dapat menolak sebagian izin melalui pengaturan perangkat, tetapi beberapa fitur aplikasi mungkin tidak berjalan sebagaimana mestinya.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>3. Bagaimana Kami Menggunakan Informasi</h2>
+                        <p>Kami menggunakan informasi yang diproses oleh aplikasi untuk:</p>
+                        <ul>
+                            <li>menyediakan fitur utama aplikasi;</li>
+                            <li>menyimpan dan menampilkan data kendaraan, servis, dokumen, dan pengingat;</li>
+                            <li>memungkinkan pengguna mengambil atau memilih gambar;</li>
+                            <li>mengirim notifikasi pengingat;</li>
+                            <li>meningkatkan stabilitas, konfigurasi, dan pengalaman penggunaan aplikasi;</li>
+                            <li>menampilkan konten iklan, jika tersedia di dalam aplikasi.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>4. Penyimpanan Data</h2>
+                        <p>Sebagian data yang Anda masukkan ke Serviro dapat disimpan secara lokal di perangkat Anda. Foto atau file yang dipilih atau diambil melalui aplikasi juga dapat disimpan di penyimpanan perangkat sesuai fungsi aplikasi.</p>
+                        <p>Kami menyarankan Anda menjaga keamanan perangkat Anda, termasuk menggunakan kunci layar atau perlindungan lain yang sesuai.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>5. Layanan Pihak Ketiga</h2>
+                        <p>Serviro dapat menggunakan layanan pihak ketiga untuk mendukung operasional aplikasi, termasuk namun tidak terbatas pada:</p>
+                        <ul>
+                            <li><strong>Google AdMob / Google Mobile Ads</strong>, untuk menampilkan iklan.</li>
+                            <li><strong>Firebase Remote Config</strong>, untuk mengelola konfigurasi aplikasi dari jarak jauh.</li>
+                        </ul>
+                        <p>Layanan pihak ketiga tersebut dapat memproses data tertentu sesuai kebijakan privasi mereka masing-masing:</p>
+                        <ul>
+                            <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+                            <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>6. Pembagian Informasi</h2>
+                        <p>Kami tidak menjual data pribadi pengguna.</p>
+                        <p>Kami dapat membagikan informasi secara terbatas apabila:</p>
+                        <ul>
+                            <li>diwajibkan oleh hukum atau permintaan otoritas yang sah;</li>
+                            <li>diperlukan untuk melindungi hak, keamanan, dan operasional aplikasi;</li>
+                            <li>diperlukan oleh penyedia layanan pihak ketiga yang membantu fungsi aplikasi, sesuai kebijakan mereka.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>7. Keamanan Data</h2>
+                        <p>Kami berupaya mengambil langkah yang wajar untuk melindungi informasi pengguna. Namun, tidak ada metode transmisi atau penyimpanan elektronik yang sepenuhnya aman. Karena itu, kami tidak dapat menjamin keamanan absolut.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>8. Privasi Anak</h2>
+                        <p>Serviro tidak ditujukan secara khusus untuk anak di bawah usia 13 tahun. Kami tidak secara sengaja mengumpulkan data pribadi dari anak-anak. Jika Anda meyakini seorang anak telah memberikan informasi kepada kami, silakan hubungi kami agar kami dapat menindaklanjutinya.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>9. Perubahan Kebijakan Privasi</h2>
+                        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Setiap perubahan akan ditampilkan pada halaman ini dengan tanggal berlaku yang diperbarui.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>10. Hak Pengguna</h2>
+                        <p>Sesuai hukum yang berlaku, Anda dapat memiliki hak untuk:</p>
+                        <ul>
+                            <li>meminta informasi mengenai data yang diproses melalui aplikasi;</li>
+                            <li>meminta perbaikan atau penghapusan data tertentu yang berada dalam kendali kami, jika berlaku;</li>
+                            <li>mencabut izin tertentu melalui pengaturan perangkat Anda.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>11. Kontak</h2>
+                        <p>Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini, silakan hubungi:</p>
+                        <ul>
+                            <li><strong>Nama/Developer:</strong> Young Bro Dev</li>
+                            <li><strong>Email:</strong> [isi email Anda]</li>
+                            <li><strong>Website:</strong> [isi website Anda, jika ada]</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div>
+                    <section class="section">
+                        <h2>English</h2>
+                        <p>
+                            Serviro ("we", "our", or "the app") respects your privacy.
+                            This Privacy Policy explains how we collect, use, store,
+                            and protect information when you use the Serviro application.
+                        </p>
+                        <p>
+                            By using Serviro, you agree to the practices described in
+                            this Privacy Policy.
+                        </p>
+                    </section>
+
+                    <section class="section">
+                        <h2>1. Information We Collect</h2>
+                        <p>Serviro may collect or process the following information:</p>
+                        <ul>
+                            <li>Data you enter directly into the app, such as vehicle data, service records, reminders, notes, or other information stored by you.</li>
+                            <li>Photos or images you capture using your device camera or select from your gallery for app features.</li>
+                            <li>Limited technical data required for the app to function properly, including app configuration and basic device information that may be processed by third-party services we use.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>2. Permissions Used by the App</h2>
+                        <p>Serviro may request the following permissions:</p>
+                        <ul>
+                            <li><code>android.permission.CAMERA</code><br />Used to capture photos directly from your device camera.</li>
+                            <li><code>android.permission.POST_NOTIFICATIONS</code><br />Used to send reminders, service notifications, document notifications, or general app updates.</li>
+                            <li><code>android.permission.INTERNET</code><br />Used so the app can load third-party services, including remote configuration and advertising services.</li>
+                        </ul>
+                        <p>You may deny some permissions through your device settings, but some app features may not function properly.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>3. How We Use Information</h2>
+                        <p>We use information processed by the app to:</p>
+                        <ul>
+                            <li>provide the core functionality of the app;</li>
+                            <li>store and display vehicle, service, document, and reminder data;</li>
+                            <li>allow users to capture or select images;</li>
+                            <li>send reminder notifications;</li>
+                            <li>improve app stability, configuration, and user experience;</li>
+                            <li>display advertising content, where applicable.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>4. Data Storage</h2>
+                        <p>Some data you enter into Serviro may be stored locally on your device. Photos or files selected or captured through the app may also be stored on your device storage depending on the app functionality.</p>
+                        <p>We recommend that you keep your device secure, including by using a screen lock or other appropriate protections.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>5. Third-Party Services</h2>
+                        <p>Serviro may use third-party services to support app operations, including but not limited to:</p>
+                        <ul>
+                            <li><strong>Google AdMob / Google Mobile Ads</strong>, to display ads.</li>
+                            <li><strong>Firebase Remote Config</strong>, to manage app configuration remotely.</li>
+                        </ul>
+                        <p>These third-party services may process certain data in accordance with their own privacy policies:</p>
+                        <ul>
+                            <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+                            <li><a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a></li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>6. Information Sharing</h2>
+                        <p>We do not sell users' personal data.</p>
+                        <p>We may share information on a limited basis when:</p>
+                        <ul>
+                            <li>required by law or a valid legal request;</li>
+                            <li>necessary to protect the rights, security, or operation of the app;</li>
+                            <li>needed by third-party service providers supporting app functionality, subject to their policies.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>7. Data Security</h2>
+                        <p>We take reasonable steps to protect user information. However, no method of electronic transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>8. Children's Privacy</h2>
+                        <p>Serviro is not specifically directed to children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has provided information to us, please contact us so we can take appropriate action.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>9. Changes to This Privacy Policy</h2>
+                        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2>10. User Rights</h2>
+                        <p>Subject to applicable law, you may have the right to:</p>
+                        <ul>
+                            <li>request information about data processed through the app;</li>
+                            <li>request correction or deletion of certain data under our control, where applicable;</li>
+                            <li>withdraw certain permissions through your device settings.</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h2>11. Contact</h2>
+                        <p>If you have questions about this Privacy Policy, please contact:</p>
+                        <ul>
+                            <li><strong>Developer:</strong> Young Bro Dev</li>
+                            <li><strong>Email:</strong> [your email here]</li>
+                            <li><strong>Website:</strong> [your website here, if any]</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="note">
+                Ganti bagian <strong>Email</strong> dan <strong>Website</strong>
+                sebelum dipublikasikan. Replace the <strong>Email</strong> and
+                <strong>Website</strong> fields before publishing.
+            </div>
+        </section>
+
+        <p class="footer">
+            Serviro Privacy Policy / Kebijakan Privasi
+        </p>
+    </main>
+</body>
+</html>
